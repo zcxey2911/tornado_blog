@@ -1,0 +1,12 @@
+<html>
+   <head>
+      <title>博客首页</title>
+   </head>
+   <body>
+     <ul>
+       {% for item in articles %}
+         <li>{{ item["title"] }}</li>
+       {% end %}
+     </ul>
+   </body>
+ </html>
